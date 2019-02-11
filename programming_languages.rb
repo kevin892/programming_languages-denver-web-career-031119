@@ -53,8 +53,8 @@ end
 #     :javascript => {
 #       :type => "interpreted"
 #     }
-#  
+#
 #   }
 # }
-# 
+#
 # reformat_languages(languages)
