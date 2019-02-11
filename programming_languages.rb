@@ -7,7 +7,7 @@ def reformat_languages(languages)
     new_languages[name][:style]<<style
     end
   end
-  new_languages
+  # new_languages
 end
 
 def reformat_languages(languages)
@@ -24,37 +24,3 @@ def reformat_languages(languages)
   new_languages[:javascript][:style] << :oo
   new_languages
 end
-
-# languages = {
-#   :oo => {
-#     :ruby => {
-#       :type => "interpreted"
-#     },
-#     :javascript => {
-#       :type => "interpreted"
-#     },
-#     :python => {
-#       :type => "interpreted"
-#     },
-#     :java => {
-#       :type => "compiled"
-#     }
-#   },
-#   :functional => {
-#     :clojure => {
-#       :type => "compiled"
-#     },
-#     :erlang => {
-#       :type => "compiled"
-#     },
-#     :scala => {
-#       :type => "compiled"
-#     },
-#     :javascript => {
-#       :type => "interpreted"
-#     }
-#
-#   }
-# }
-#
-# reformat_languages(languages)
